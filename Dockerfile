@@ -4,6 +4,6 @@ WORKDIR /application
 
 COPY Task.java .
 
-RUN javac Task.Java
+RUN javac Task.java
 
 CMD java Mahmoud
