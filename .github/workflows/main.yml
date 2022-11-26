@@ -14,7 +14,7 @@ jobs:
         
 
       - name: "Login to docker hub"
-        run: docker login --username OS2021 --password dckr_pat_76iqvx56x0OomOf0-b0pfNUNYfA
+        run: docker login --username os2021 --password dckr_pat_76iqvx56x0OomOf0-b0pfNUNYfA
       
             
 
