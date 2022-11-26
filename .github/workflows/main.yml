@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'printing folder content'
+      - name: 'Printing Folder Content'
       - run: ls 
        
       
