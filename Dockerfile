@@ -2,7 +2,7 @@ FROM openjdk
 
 WORKDIR /application
 
-COPY Task.java
+COPY Task.java .
 
 RUN javac Task.Java
 
