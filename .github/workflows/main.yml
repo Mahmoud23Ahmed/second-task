@@ -7,14 +7,14 @@ on:
 
 jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: 'Testing github action'
-       run: pwd
+        run: pwd
 
       - name: 'Testing printig'
-       run: echo Mahmoud
+        run: echo Mahmoud
       
             
 
