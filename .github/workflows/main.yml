@@ -1,1 +1,25 @@
+on:
+  push:
+    branches:
+      - master
+
+
+
+jobs:
+  build:
+    run-on: ubontu-latest
+
+
+
+    steps:
+      - name: 'Testing github action'
+       run: pwd
+
+      - name: 'Testing printig'
+       run: echo Mahmoud
+      
+            
+
+
+
 
